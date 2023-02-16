@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Scatology.TC_007Test">
+        <methods>
+          <include name="Haemotology"/>
+          <include name="loginToApplication"/>
+          <include name="openTheBrowser"/>
+          <include name="logoutOfApplication"/>
+          <include name="closeTheBrowser"/>
+        </methods>
+      </class> <!-- Scatology.TC_007Test -->
+      <class name="Scatology.TC_004Test">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="EditUser"/>
+          <include name="openTheBrowser"/>
+          <include name="logoutOfApplication"/>
+          <include name="closeTheBrowser"/>
+        </methods>
+      </class> <!-- Scatology.TC_004Test -->
+      <class name="Scatology.TC_001Test">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="openTheBrowser"/>
+          <include name="logoutOfApplication"/>
+          <include name="Register"/>
+          <include name="closeTheBrowser"/>
+        </methods>
+      </class> <!-- Scatology.TC_001Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
